@@ -49,7 +49,7 @@ color: #ffb26b !important;
 
 /* About me */
 .about-me{
-  margin-top: 1.5rem;
+  margin-top: 1.8rem;
 }
 .about-me h2, h3{
   color:#eb5e0b ;
@@ -57,7 +57,45 @@ color: #ffb26b !important;
 .img-myself{
   width:100%;
 }
+.my-img{
+  padding-bottom:1.3rem;
+}
 
 .education-list{
   list-style-type: none
+}
+
+/* Works section */
+
+.work-example{
+
+  margin-top: 10rem;
+  background-image: url(images/website1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+
+}
+
+.work-example h3{ 
+
+  text-align:center;
+  
+ 
+  
+}
+
+.more-btn{
+  width:50%;
+  background-color:#f58634;
+  text-align:center;
+  
+  margin-top: 1.3rem;
+}
+
+@media (max-width:788px){
+.more-btn{
+  display: block !important;
+}
+
 }
