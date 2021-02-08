@@ -1,0 +1,48 @@
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+/* NAVBAR */
+
+.nav-serter{
+  background-color:#f5f4f4 ;
+}
+.name{
+  display: inline-block;
+  font-family:Roboto;
+  font-size:1.2rem;
+  color: #eb5e0b !important;
+  
+}
+
+.name:hover{
+color: #ffb26b !important;
+
+}
+
+
+.link-home {
+ 
+  text-decoration: underline !important;
+}
+
+.menu-item{
+  padding-right: 5rem;
+  
+}
+
+.listed a{
+  color:#eb5e0b !important;
+  transition:color !important;
+  transition-duration: 1s !important;
+  
+  transition-timing-function: ease-in !important;
+}
+
+.listed a:hover{
+  transform: scale(1.1);
+  color:#f58634;
+
+}
