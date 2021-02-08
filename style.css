@@ -46,3 +46,18 @@ color: #ffb26b !important;
   color:#f58634;
 
 }
+
+/* About me */
+.about-me{
+  margin-top: 1.5rem;
+}
+.about-me h2, h3{
+  color:#eb5e0b ;
+}
+.img-myself{
+  width:100%;
+}
+
+.education-list{
+  list-style-type: none
+}
