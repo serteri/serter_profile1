@@ -99,3 +99,96 @@ color: #ffb26b !important;
 }
 
 }
+
+/* References */
+.reference{
+  text-align: center;
+  margin-top: 4rem;
+  
+
+}
+#reference-1{
+  font-size: 1.8rem;
+  font-family: Roboto;
+  font-weight: 800;
+
+}
+.reference-list{
+  padding-top: 1rem;
+  padding-bottom: 5rem;
+}
+.references{
+  margin-top:4rem;
+  background-color: #f6f5f5;
+}
+.ref-img{
+  width: 100%;
+
+}
+.ref-link :hover{
+  transform: scale(1.1);
+
+}
+.type-work{
+  padding-top: 1.8rem;
+  text-align: center;
+  color: #eb5e0b;
+
+
+}
+
+/* Contact Form */
+
+.intro-contact{
+  padding-left: 3rem;
+}
+
+#contact{
+  margin-top: 2rem;
+  margin-left:1.3rem;
+  
+  background-color: #f5f4f4;
+  
+}
+.contact-us{
+  padding-left: 3rem;
+  padding-top: 2rem;
+  
+ 
+ 
+}
+.inputs{
+  
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+ text-align: center;
+  resize: none;
+  display: block;
+}
+  
+  
+
+input{
+  
+  font-family: Roboto;
+  font-size: 1.2rem;
+  color: #eb5e0b;
+ display: block;
+  text-align: center;
+
+}
+.button{
+  margin-top: 2rem;
+ line-height: 3;
+ word-spacing: 5px;
+ text-align: center;
+ letter-spacing: 5px;
+ padding-left: 2rem;
+ padding-right: 2rem;
+ border-radius: 10px;
+ background-color: #ffb26b;
+}
+
+/* Footer */
+
+
