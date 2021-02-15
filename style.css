@@ -7,13 +7,13 @@
 /* NAVBAR */
 
 .nav-serter{
-  background-color:#f5f4f4 ;
+  
 }
 .name{
   display: inline-block;
   font-family:Roboto;
   font-size:1.2rem;
-  color: #eb5e0b !important;
+ 
   
 }
 
@@ -34,7 +34,7 @@ color: #ffb26b !important;
 }
 
 .nav-link{
-  color:#eb5e0b !important;
+  
 }
 
 .nav-link:hover{
@@ -54,16 +54,46 @@ color: #ffb26b !important;
 
 /* About me */
 .about-me{
-  margin-top: 5rem;
+  
+
+  background-image: url(images/laptop1.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
+
+
 .about-me h2, h3{
   color:#eb5e0b ;
 }
 .img-myself{
-  width:100%;
+  padding-top: 3rem;
+  width: 30%;
+  
 }
-.my-img{
-  padding-bottom:1.3rem;
+
+#about-me{
+  margin-top:3rem;
+}
+.social-us{
+  width: 10%;
+  padding-left: 2rem;
+  
+}
+#linkedin{
+  color:white;
+}
+.social-me{
+  padding-left: .9rem;
+  
+  
+  display: inline-block;
+}
+
+.social-me2{
+  display: inline-block;
+  color: ;
+  background: linear-gradient(45deg, #405DE6,#5051DB, #833AB4, #C13584, #E1306C,#FD1D1D);
 }
 
 .education-list{
@@ -74,7 +104,7 @@ color: #ffb26b !important;
 
 .work-example{
 
-  margin-top: 10rem;
+  margin-top: 2rem;
   background-image: url(images/website1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -93,6 +123,7 @@ color: #ffb26b !important;
 #work-selected{
   text-align: center;
   color: #ffb26b;
+  margin-bottom: 1.1em;
 }
 
 .more-btn{
@@ -101,6 +132,7 @@ color: #ffb26b !important;
   text-align:center;
   
   margin-top: 1.3rem;
+  margin-bottom: .8rem;
 }
 
 @media (max-width:788px){
